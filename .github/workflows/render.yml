@@ -36,9 +36,6 @@ jobs:
       - name: Install Node Packages
         run: npm install
 
-      - name: Install Chrome for Remotion
-        run: npx remotion browser ensure
-
       - name: Render Still Frames
         run: npm run render:stills
 
